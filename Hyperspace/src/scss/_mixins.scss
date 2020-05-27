@@ -1,0 +1,33 @@
+@mixin form_style(){
+	border: none;
+	border-radius: 5px;
+	background-color: #D1B395;
+}
+
+@mixin text_style(){
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+	h1{
+		font-size: 4rem;
+
+	}
+	h2{
+		font-size: 3rem;
+	}
+	h3{
+		font-size: 2rem;
+		padding: 10px 0;
+	}
+	a{
+		color: #F1B87F;
+		text-decoration: none;
+	}
+	p{
+		font-size: 2em;
+		color: #DDCCBC;
+		text-transform: none;
+		padding: 30px 0;
+	}
+}
